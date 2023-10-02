@@ -18,7 +18,7 @@ var txString1 = JSON.stringify(tx1);
 var txString2 = JSON.stringify(tx2);
 var participants = []; 
 // 使用一个循环来为每个参与者生成公私钥对，并将其添加到数组中 
-for (var i = 0; i < 1000; i++) 
+for (var i = 0; i < 100; i++) 
 { var participant = lrs.gen();
  participants.push(participant); 
 } 
